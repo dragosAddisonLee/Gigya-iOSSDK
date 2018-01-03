@@ -14,7 +14,7 @@
     "ios": "8.0"
   },
   "source": {
-    "http": "https://github.com/dragosAddisonLee/Gigya-SDK/blob/master/GigyaSDK/Frameworks/GigyaSDK.framework.zip"
+    "http": "https://github.com/dragosAddisonLee/Gigya-SDK/blob/master/Frameworks/GigyaSDK.framework.zip"
   },
   "ios": {
     "vendored_frameworks": "GigyaSDK.framework"
