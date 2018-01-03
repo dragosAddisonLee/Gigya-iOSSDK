@@ -1,5 +1,7 @@
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @class GSResponse;
 @class GSSession;
 
@@ -88,3 +90,5 @@ typedef void(^ _Nullable GSResponseHandler)(GSResponse * _Nullable response, NSE
 @property (nonatomic, copy) NSString *source;
 
 @end
+
+NS_ASSUME_NONNULL_END

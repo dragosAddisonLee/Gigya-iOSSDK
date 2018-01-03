@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'http://developers.gigya.com/display/GD/iOS'
   spec.authors      = { 'SDK team' => 'sdks-team@gigya-inc.com' }
   spec.summary      = 'The iOS client library provides an Objective-C interface for the Gigya API'
-  spec.source       = { :git => 'https://github.com/dragosAddisonLee/Gigya-iOSSDK.git' }
+  spec.source       = { :git => 'https://github.com/dragosAddisonLee/Gigya-iOSSDK.git', :branch => 'master' }
 
   spec.ios.deployment_target  = '8.0'
   

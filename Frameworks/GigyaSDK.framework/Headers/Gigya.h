@@ -36,6 +36,8 @@
 
 #endif
 
+NS_ASSUME_NONNULL_BEGIN
+
 // Consts
 static NSString * _Nonnull const GSGigyaSDKVersion = @"iOS_3.6.0";
 static NSString * _Nonnull const GSDefaultAPIDomain = @"us1.gigya.com";
@@ -729,6 +731,8 @@ typedef void(^GSGetSessionCompletionHandler)(GSSession * _Nullable session);
 + (void)__setDebugOptionEnableTestNetworks:(BOOL)debugOptionEnableTestNetworks;
 
 @end
+
+NS_ASSUME_NONNULL_END
 
 
 
